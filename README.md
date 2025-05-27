@@ -27,5 +27,6 @@ BrowserRouter -> BrowserRouter is a Router component provided by the react-route
 Install the clerk for user authentication
  It lets people sign up, sign in, and manage their account in your app without you having to write complex backend code!
  Setup clerk npm install @clerk/clerk-react
- create .env file - VITE_CLERK_PUBLISHABLE_KEY=pk_test_ZmVhc2libGUtamF5YmlyZC00LmNsZXJrLmFjY291bnRzLmRldiQ
- 
+ create .env file.
+
+ Create Featured Destinstion componant.
