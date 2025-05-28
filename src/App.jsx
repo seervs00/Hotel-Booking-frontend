@@ -8,7 +8,7 @@ import AllRooms from './Pages/AllRooms';
 const App = () => {
   const isOwnerPath = useLocation().pathname.includes("owner");
   return (
-    <div>
+    <div >
     { !isOwnerPath && <Navbar/>}
     <div>
       <Routes>

@@ -30,3 +30,7 @@ Install the clerk for user authentication
  create .env file.
 
  Create Featured Destinstion componant.
+ create Exclusiveoffers componant,Testimonial componant and NewsLetter componant
+ create footer use pribuilt ui
+ create AllRooms page 
+ 
