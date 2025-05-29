@@ -53,7 +53,7 @@ const AllRooms = () => {
             Take advantage of our limited-time offers and special packages to enhance your stay and create unforgettable memories.</p>
           </div>
 {roomsDummyData.map((room) => (      
-            <div key={room._id} className='flex felx-col md:flex-row items-start py-10 gap-6 border-b border-gray-300 last:pb-30 last:border-0'> 
+            <div key={room._id} className='flex felx-col md:flex-row items-start py-10 gap-6 border-b border-gray-300 last:pb-30 last:border-0 '> 
                 <img onClick={() => {navigate(`/rooms/${room._id}`);scrollTo(0,0)}}
                 src={room.images[0]} alt="hotel-img" title='View Room Details'
                 className='max-h-65 md:w-1/2 rounded-xl shadow-lg object-cover cursor-pointer'

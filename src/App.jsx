@@ -4,6 +4,8 @@ import { Routes ,Route, useLocation } from 'react-router-dom'
 import Home from './Pages/Home';
 import Footer from './Componants/Footer';
 import AllRooms from './Pages/AllRooms';
+import RoomDetail from './Pages/RoomDetail';
+import MyBookings from './Pages/MyBookings';
 
 const App = () => {
   const isOwnerPath = useLocation().pathname.includes("owner");
@@ -14,6 +16,8 @@ const App = () => {
       <Routes>
         <Route path='/' element ={<Home/>}/>
         <Route path='/rooms' element ={<AllRooms/>}/>
+        <Route path='/rooms/:id' element ={<RoomDetail/>}/>
+        <Route path='/my-bookings' element={<MyBookings/>}/>
       </Routes>
     </div>
     <Footer/>
