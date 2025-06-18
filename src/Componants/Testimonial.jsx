@@ -9,7 +9,7 @@ export const Testimonial = () => {
         <Title title ="Whar Our Guests Say" 
         subTitle="Discover why discerning trsvelerd condidtently choose BookEase for their eclusive and luxurious accommodations arounf the world."/>
 
-<div className="flex flex-wrap items-center  gap-6 mt-20 ">
+<div className="flex flex-wrap justify-center items-center  gap-6 mt-20 ">
                 {testimonials.map((testimonial) => (
                     <div key={testimonial.id} className="bg-white p-6 rounded-xl shadow ">
                         <div className="flex items-center gap-3">

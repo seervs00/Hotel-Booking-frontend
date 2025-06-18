@@ -1,4 +1,6 @@
 import logo from './logo.svg'
+import newlogo from "./newlogo.png"
+import logox from "./logox.png"
 import searchIcon from './searchIcon.svg'
 import userIcon from './userIcon.svg'
 import calenderIcon from './calenderIcon.svg'
@@ -72,6 +74,8 @@ export const assets = {
     uploadArea,
     totalBookingIcon,
     totalRevenueIcon,
+    newlogo,
+    logox
 }
 
 export const cities = [
