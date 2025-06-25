@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { assets, facilityIcons, roomCommonData, roomsDummyData } from '../assets/assets';
+import { assets, facilityIcons, roomCommonData} from '../assets/assets';
 import StarRating from '../Componants/StarRating';
 import useAppContext from '../Componants/Context/useAppContext';
 import toast from 'react-hot-toast';

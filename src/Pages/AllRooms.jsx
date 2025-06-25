@@ -128,10 +128,10 @@ const AllRooms = () => {
         </div>
 
         {filteredRooms.map((room) => (
-          <div key={room._id} className='flex flex-col md:flex-row items-start py-10 gap-6 border-b border-gray-300 last:pb-30 last:border-0'>
+          <div key={room.id} className='flex flex-col md:flex-row items-start py-10 gap-6 border-b border-gray-300 last:pb-30 last:border-0'>
             <img
               onClick={() => {
-                navigate(`/rooms/${room._id}`);
+                navigate(`/rooms/${room.id}`);
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
               src={room.images[0]}

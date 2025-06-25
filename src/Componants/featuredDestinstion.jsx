@@ -13,7 +13,7 @@ export const FeaturedDestinstion = () => {
       
         <div className='flex flex-wrap items-center justify-center gap-6 mt-20  '>
            {rooms.slice(0,4).map((room,index) =>(
-            <HotelCard key = {room._id} room = {room} index = {index}/>
+            <HotelCard key = {room.id} room = {room} index = {index}/>
            ))} 
         </div>
         <button onClick={() => {navigate("/rooms"); scrollTo(0,0)}} className='my-16 px-4 py-2 text-sm font-medium border bprder-gray-300 rounded bg-white hover:bg-gray-50 transition-all cursor-pointer'>
